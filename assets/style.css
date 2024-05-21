@@ -159,7 +159,7 @@ p {
 .services__title {
   display: flex;
   margin-top: 5vw;
-  /* align-items: center; */
+  align-items: center;
   font-size: 1.5vw;
   /*  text-align: center; */
   top: 0;
@@ -170,6 +170,8 @@ p {
 /* service containers */
 .service__container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 10px;
 }
 .service__container div {
@@ -184,22 +186,22 @@ p {
 
 /* ----------------------------------------------- */
 /* New Arrivals */
-.new_arrivals {
+#new_arrivals {
   display: flex;
   flex-direction: column;
   margin-left: 3vw;
 }
 .new_arrival_main {
   margin-top: 3vw;
-
   display: flex;
   flex-direction: row;
   gap: 5vw;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
 }
 .new_arrivals__container {
   position: relative;
+  flex-basis: 20%;
 }
 .new_arrivals__container img {
   width: 20vw;
@@ -214,6 +216,15 @@ p {
   opacity: 0.6;
 }
 .new_arrivals__container button {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  position: absolute;
+  left: 18%;
+  top: 50%;
+  border-radius: 10px;
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
@@ -223,13 +234,31 @@ p {
   padding: 1vw;
   font-size: medium;
   font-weight: bold;
-  position: absolute;
-  border-radius: 10px;
-  left: 35%;
-  top: 50%;
 }
 
 /* ----------------------------------------------- */
+/* news letter */
+.news {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.news input {
+  padding: 11px;
+  width: 80vw;
+  margin-bottom: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.news button {
+  margin-top: 10px;
+  color: #f2f4f7;
+  background-color: #1d232c;
+  border-radius: 10px;
+  padding: 10px;
+}
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
 /* footer */
@@ -257,5 +286,11 @@ p {
   }
   #sidenav {
     display: block;
+  }
+  .services__title {
+    display: none;
+  }
+  .service__container {
+    flex-direction: column;
   }
 }
