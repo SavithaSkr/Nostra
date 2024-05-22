@@ -260,6 +260,22 @@ p {
   padding: 10px;
 }
 /* ----------------------------------------------- */
+/* prodcut page css */
+.collection_container {
+  margin: 2vw;
+}
+.divide_container {
+  display: flex;
+  gap: 5vw;
+  text-align: center;
+  justify-content: space-between;
+}
+.filter_section {
+  flex-basis: 25%;
+  position: relative;
+
+  text-align: left;
+}
 /* ----------------------------------------------- */
 /* footer */
 .footer {
