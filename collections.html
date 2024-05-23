@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collections</title>
+    <!-- stylesheet lnk -->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstarp -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- <div class="popup">
+      Sign Up and GET 20% OFF for your first Order
+      <p>x</p>
+    </div> -->
+    <!-- nav bar -->
+    <nav class="navb">
+      <div class="nav__s1"><h1>Nostra</h1></div>
+
+      <div class="navbar">
+        <p class="navbar__link"><a href="./index.html">Home</a></p>
+         <p class="navbar__link"><a href="./collections.html">Collections</a></p>
+        <p class="navbar__link"><a href="./contact.html">Contact Us</a></p>
+      </div>
+      <!-- font awsome triple line icon -->
+      <div class="nav_menu_toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- sidenav bar -->
+    <div id="sidenav">
+      <p class="sidenavclose" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="sidenavbar">
+        <p class="sidenavbar__link"><a href="./index.html">Home</a></p>
+        <p class="sidenavbar__link"><a href="./collections.html">Collections</a></p>
+        <p class="sidenavbar__link"><a href="./contact.html">Contact Us</a></p>
+      </div>
+    </div>
+    <!-- product container -->
+    <div class="collection_container">
+      <div class="divide_container">
+        <div class="filter_section">
+          <div class="section_checks">
+            <h3>Occasion</h3>
+            <div>
+              <form class="form_occasion">
+                <input type="checkbox" name="tags" value="Summer" />&nbsp;&nbsp; Summer
+                <br />
+                <input type="checkbox" name="tags" value="party" />&nbsp;&nbsp;Party
+                <br />
+                <input type="checkbox" name="tags" value="beach" /> &nbsp;&nbsp;Beach
+                <br />
+              </form>
+            </div>
+          </div>
+          <div class="section_checks">
+            <h3>Colors</h3>
+            <div class="section_checks1">
+              <form class="form_occasion">
+                <input type="checkbox" name="tags" value="red" />&nbsp;&nbsp;Red
+                <br />
+                <input type="checkbox" name="tags" value="blue" />&nbsp;&nbsp;Blue
+                <br />
+                <input type="checkbox" name="tags" value="white" />&nbsp;&nbsp;White
+                <br />
+                <input type="checkbox" name="tags" value="green" />&nbsp;&nbsp;Green
+                <br />
+              </form>
+            </div>
+          </div>
+          <div class="section_checks">
+            <h3>Arrivals</h3>
+            <div>
+              <form class="form_occasion">
+                <input type="checkbox" name="tags" value="new" />&nbsp;&nbsp;New
+                <br />
+                <input type="checkbox" name="tags" value="old" />&nbsp;&nbsp;Old
+                <br />
+              </form>
+            </div>
+          </div>
+          <hr class="vertical_line">
+        </div>
+       
+        <!-- Product -->
+        <div class="product_sec">
+          <div class="prod_search">
+            <input type="text" id="search" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="products" id="products">
+            <div class="product">
+               <img src="./assets/images/products/f1.jpg">
+               <h2>Floral Summer Shirt</h2>
+                <p>$25</p>
+               <tag style="visibility: hidden;">new, blue, summer</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f2.jpg">
+              <h2>Summer Green Shirt</h2>
+               <p>$20</p>
+              <tag style="visibility: hidden;">new, green, beach</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f3.jpg">
+              <h2>Party Floral Shirt</h2>
+              <p>$25</p>
+              <tag style="visibility: hidden;">old, red, party</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f4.jpg">
+              <h2>Floral Summer Shirt</h2>
+              <p>$20</p>
+              <tag style="visibility: hidden;">new, white, Summer</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f5.jpg">
+              <h2>Blue Beach Shirt</h2>
+              <p>$15</p>
+              <tag style="visibility: hidden;">old, blue, beach</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f6.jpg">
+              <h2>Party Floral Shirt</h2>
+              <p>$25</p>
+              <tag style="visibility: hidden;">new, red, party</tag>
+            </div> 
+            <div class="product">
+              <img src="./assets/images/products/f1.jpg">
+              <h2>Floral Summer Shirt</h2>
+               <p>$25</p>
+              <tag style="visibility: hidden;">new, blue, summer</tag>
+           </div> 
+           <div class="product">
+             <img src="./assets/images/products/f2.jpg">
+             <h2>Summer Green Shirt</h2>
+              <p>$20</p>
+             <tag style="visibility: hidden;">new, green, beach</tag>
+           </div> 
+           <div class="product">
+             <img src="./assets/images/products/f3.jpg">
+             <h2>Party Floral Shirt</h2>
+             <p>$25</p>
+             <tag style="visibility: hidden;">old, red, party</tag>
+           </div>
+          </div>
+        </div>
+     
+      </div>
+    <!-- newsletter -->
+    <div class="news">
+      <h2>Join our News Letter</h2>
+      <p>
+        Signup for our email newspaper to get exclusive discounts, updates, and
+        more
+      </p>
+      <div><input type="text" class="search" /></div>
+      <button>Subscribe</button>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer_container">
+        <div class="footer__box">
+          <h2>Nostra</h2>
+          <p>
+            The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+            below for those interest
+          </p>
+          <div class="footer__icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer_container_2">@ 2024 Nostra.com</div>
+    </div>
+    <!-- bootstrap -->
+
+    <script src="./assets/javascript/jscript.js"></script>
+  </body>
+</html>
