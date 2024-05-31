@@ -13,3 +13,7 @@ Nostra is a web-based platform where users can browse, search, and purchase dres
 **HTML:** For structuring the content on the web pages.
 **CSS:** For styling the web pages and making them responsive.
 **JavaScript:** For interactivity and dynamic content.
+
+
+**Contributing**
+Contributions are welcome! If you have any suggestions or improvements, please submit a pull request or open an issue.****
