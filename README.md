@@ -16,4 +16,6 @@ Nostra is a web-based platform where users can browse, search, and purchase dres
 
 
 **Contributing**
-Contributions are welcome! If you have any suggestions or improvements, please submit a pull request or open an issue.****
+Contributions are welcome! If you have any suggestions or improvements, please submit a pull request or open an issue.****..
+
+Thank you for visiting Nostra! Enjoy your shopping experience.
