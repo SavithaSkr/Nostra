@@ -1,4 +1,5 @@
 Nostra is a web-based platform where users can browse, search, and purchase dresses. It is designed to be user-friendly and visually appealing, ensuring a pleasant shopping experience.
+click the link ** https://savithaskr.github.io/Nostra/** to visit the website. 
 
 **Features**
 **Responsive Design:** Ensures compatibility with various devices (desktops, tablets, smartphones).
@@ -8,6 +9,9 @@ Nostra is a web-based platform where users can browse, search, and purchase dres
 **Search Functionality:** Allows users to search for specific dresses.
 
 **Filter Options:** Users can filter dresses by categories, sizes, colors, and prices.
+
+
+
 
 **Technologies Used**
 **HTML:** For structuring the content on the web pages.
